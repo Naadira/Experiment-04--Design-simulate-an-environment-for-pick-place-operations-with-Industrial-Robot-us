@@ -90,13 +90,16 @@ r.MoveJ(p(3.71469,-430.862,500.489,-179.861,3.3803,-179.992),[25.7617,1.8996,-94
 r.MoveJ(p(30.2054,-430.862,51.997,-179.861,3.3803,-179.992),[27.0464,-17.1299,-126.619,2.4267,-39.2881,24.9885],[0,0,0])
 r.RunMessage(r"""Detach from Gripper RobotiQ 85 Opened""",True)
 r.ProgFinish(r"""PICKANDPLACE""")
-r.ProgSave(r"""C:/Users/VelasiriSreeja/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/VelasiriSreeja/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""") 
- 
+r.ProgSave(r"""C:/Users/Naadira/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/Naadira/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""")
+
+
 ### SIMULATION 
 
 ![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/686f203f-5ef3-4a61-9e04-846bf43ac40b)
 
 ![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/4b0fdb13-8124-409b-b2b0-9605343d29a0)
+
+![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/5e4f7e39-da21-4223-a044-ebd735ff0763)
 
 ![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/a44bd9ed-0577-4463-a930-51644223c725)
 
