@@ -92,7 +92,6 @@ r.RunMessage(r"""Detach from Gripper RobotiQ 85 Opened""",True)
 r.ProgFinish(r"""PICKANDPLACE""")
 r.ProgSave(r"""C:/Users/Naadira/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/Naadira/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""")
 
-
 ### SIMULATION 
 
 ![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/686f203f-5ef3-4a61-9e04-846bf43ac40b)
