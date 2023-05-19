@@ -50,17 +50,8 @@ Rename the first target as Home by pressing F2. Alternatively, select ToolsRenam
 	 
 	 
 ### PROGRAM 
- 
 PICK AND PLACE()
-# RoboDK Python Intermediate file to generate robot programs.
-# Program name: PICKANDPLACE
-# This file requires the post processor: 
-#   Doosan_Robotics
-# to generate your robot program.
-# This is a temporary file and you can delete it once you have generated your program.
-# 
-# Post processor documentation: https://robodk.com/doc/en/PythonAPI/postprocessor.html
-
+ 
 import sys
 import os
 sys.path.append(os.path.abspath(r"""D:\RoboDK\Posts""")) # temporarily add path to POSTS folder
@@ -70,7 +61,6 @@ from Doosan_Robotics import *
 try:
 from robodk.robomath import PosePP as p
 except:
-# This will be removed in future versions of RoboDK
 from robodk import PosePP as p
 
 
@@ -90,8 +80,7 @@ r.MoveJ(p(3.71469,-430.862,500.489,-179.861,3.3803,-179.992),[25.7617,1.8996,-94
 r.MoveJ(p(30.2054,-430.862,51.997,-179.861,3.3803,-179.992),[27.0464,-17.1299,-126.619,2.4267,-39.2881,24.9885],[0,0,0])
 r.RunMessage(r"""Detach from Gripper RobotiQ 85 Opened""",True)
 r.ProgFinish(r"""PICKANDPLACE""")
-r.ProgSave(r"""C:/Users/Naadira/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/Naadira/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""")
-
+r.ProgSave(r"""C:/Users/VelasiriSreeja/OneDrive/Documents/RoboDK""",r"""PICKANDPLACE""",True,r"""C:/Users/VelasiriSreeja/Downloads/apps/RoboDK/Other/VSCodium/VSCodium.exe""")
 ### SIMULATION 
 
 ![image](https://github.com/Naadira/Experiment-04--Design-simulate-an-environment-for-pick-place-operations-with-Industrial-Robot-us/assets/128135126/686f203f-5ef3-4a61-9e04-846bf43ac40b)
